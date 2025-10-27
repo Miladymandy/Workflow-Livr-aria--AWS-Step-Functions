@@ -1,4 +1,4 @@
-# Workflow-Livraria--AWS-Step-Functions
+# Workflow Livraria - AWS Step Functions
 
 ### Descrição
 Este workflow automatiza o processamento de pedidos na Bellwood Papelaria utilizando **AWS Step Functions** e **AWS Lambda**.
