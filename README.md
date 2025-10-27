@@ -17,3 +17,5 @@ Este workflow automatiza o processamento de pedidos na Bellwood Papelaria utiliz
 - AWS Lambda (Node.js/Python)  
 - Amazon DynamoDB  
 - Amazon SNS (para notificações)
+
+<img width="544" height="668" alt="Image" src="https://github.com/user-attachments/assets/fe9a1cb6-3585-4d02-88b4-d753ba524819" />
