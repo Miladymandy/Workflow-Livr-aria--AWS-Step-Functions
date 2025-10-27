@@ -4,11 +4,11 @@
 Este workflow automatiza o processamento de pedidos na Bellwood Papelaria utilizando **AWS Step Functions** e **AWS Lambda**.
 
 ### Fluxo
-VerificarEstoque (Lambda) – Checa se o livro está disponível. 
-DynamoDB GetItem (Livros) – Busca os detalhes do livro no banco. 
-EscolherAção (Choice) – Decide o próximo passo com base na disponibilidade do livro. 
-Regra 1: ProcessarPagamento → AtualizarEstoque → Fim 
-Regra 2: NotificarFaltaEstoque → NotificarCliente → Fim 
+- VerificarEstoque (Lambda) – Checa se o livro está disponível. 
+- DynamoDB GetItem (Livros) – Busca os detalhes do livro no banco. 
+- EscolherAção (Choice) – Decide o próximo passo com base na disponibilidade do livro.
+- Regra 1: ProcessarPagamento → AtualizarEstoque → Fim 
+- Regra 2: NotificarFaltaEstoque → NotificarCliente → Fim 
 
 ### Tecnologias
 - AWS Step Functions  
